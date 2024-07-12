@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="./manager_sign_up.css">
+</head>
+
+<body>
+    <section class="container">
+        <header>Registration Form</header>
+        <form action="https://mail.google.com/mail/u/0/#inbox" id="form" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input id="name" type="text" placeholder="Enter full name" />
+                <span>Field should not be empty</span>
+            </div>
+            <div class="input-box">
+                <label>Phone Number</label>
+                <input type="number" placeholder="Enter phone number" id="phone" />
+                <span>Field should not be empty</span>
+
+            </div>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder="Enter email" id="email" />
+                <span>Field should not be empty</span>
+
+            </div>
+
+
+            <div class="input-box">
+                <label>password</label>
+                <input id="password" type="password" placeholder="Enter Password" />
+                <span>Field should not be empty</span>
+                <p></p>
+            </div>
+            <div class="input-box">
+                <label>experience</label>
+                <input type="number" placeholder="Enter your experience" id="experience" />
+                <span>Field should not be empty</span>
+
+            </div>
+
+            </div>
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked value="male" />
+                        <label for="check-male">male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" value="female"/>
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" value="other" />
+                        <label for="check-other">prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box address">
+                <label>Address</label>
+                
+            <input type="text" placeholder="Enter Door_No" id="door_no"  />
+            <span>Field should not be empty</span>
+
+            <input type="text" placeholder="Enter Landmark"  id="landmark"/>
+            <span>Field should not be empty</span>
+
+            <input type="text" placeholder="Enter street" id="street" />
+            <span>Field should not be empty</span>
+
+            <input type="text" placeholder="Enter city"  id="city"/>
+            <span>Field should not be empty</span>
+
+            <input type="text" placeholder="Enter district" id="district"  />
+            <span>Field should not be empty</span>
+
+            <input type="text" placeholder="Enter state" id="state" />
+            <span>Field should not be empty</span>
+
+            <input type="number" placeholder="Enter postal code" id="pincode" />
+            <span>Field should not be empty</span>
+           
+
+
+
+
+
+
+
+            </div>
+            <button>Submit</button>
+        </form>
+        <p id="signin">Already have an account? <a href="http://127.0.0.1:5500/front_end/front_end/manager/manager_sign_in.html" class="a2">Sign in!</a></p>
+    </section>
+
+    <script src="./manager_sign_up.js"></script>
+
+</body>
+
+</html>

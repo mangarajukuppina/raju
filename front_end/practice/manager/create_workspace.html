@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create</title>
+    <link rel="stylesheet" href="./create_workspace.css">
+</head>
+
+<body>
+    <h1>Create Workspace here</h1>
+    <form class="form">
+        <!-- <label for="" class="name">id</label>
+        <input class="input" type="number" name="id" id="id" readonly> -->
+        <label for="" class="name">Floor id</label>
+        <input class="input" type="number" id="floor_id">
+        <span>input should not be empty</span>
+        <label for="" class="name">Price Per Day</label>
+        <input class="input" type="number" id="price">
+        <span>input should not be empty</span>
+
+        <label for="">Type of workspace</label>
+        <select name="type" id="type">
+
+            <option value="select" disabled>select workspace type</option>
+            <option value="training">training</option>
+            <option value="meetingRoom">meetingRoom</option>
+            <option value="drinking">drinking</option>
+            <option value="cafeteria">cafeteria</option>
+            <option value="sleeping">sleeping</option>
+            <option value="shopping">shopping</option>
+            <option value="virtualoffice">virtualoffice</option>
+            <option value="privateoffice">privateoffice</option>
+
+        </select>
+        <label for="" id="available">Availability</label>
+        <select name="available" id="available_select">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+
+
+
+
+        <label for="" class="name">Capacity</label>
+        <input class="input" type="number" id="Capacity">
+        <span>input should not be empty</span>
+
+        <label for="" class="name">Squarefeet</label>
+        <input class="input" type="text" id="squarefeet">
+        <span>input should not be empty</span>
+
+
+        <center><button class="button">Create</button></center>
+    </form>
+
+
+    <script src="./create_workspace.js"></script>
+</body>
+
+</html>

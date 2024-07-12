@@ -1,0 +1,19 @@
+form{
+    border: 3px solid red;
+    margin-left: 40%;
+    padding: 40px;
+}
+body{
+    background-image: linear-gradient(225deg, red, blue, green, pink);
+}
+label{
+    color: red;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    color: rgb(4, 0, 255);
+    font-weight: 900;
+}

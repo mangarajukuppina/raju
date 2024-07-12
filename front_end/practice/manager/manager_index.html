@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./manager_main.css">
+</head>
+
+<body>
+    <main id="main">
+        <section id="sub-main">
+            <span><img src="https://indiqube.com/wp-content/uploads/2022/04/Final-Updated-logo-trans.png" alt=""></span>
+            <ol>
+
+                <li id="details" class="main_button">Your Details</li>
+                <li class="main_button">Delete WorkSpace</li>
+                <li class="main_button">create Workspace</li>
+                <li id="loc" class="main_button">Logout</li>
+
+                <li><button id="manager">Profile</button></li>
+                <br>
+
+            </ol>
+
+
+        </section>
+
+        <div class="container">
+            <div class="form_area">
+                <div id="x">
+                    <h4>X</h4>
+
+                </div>
+
+
+                <p class="title"> Update here</p>
+                <form action="" id="form">
+
+                    <div class="form_group">
+                        <label class="sub_title" for="id">Id</label>
+                        <input placeholder="Enter your full name" class="form_style" type="number" id="id" readonly>
+                    </div>
+                    <div class="form_group">
+                        <label class="sub_title" for="name">Name</label>
+                        <input placeholder="Enter your full name" class="form_style" type="text" id="name">
+                    </div>
+                    <div class="form_group">
+                        <label class="sub_title" for="email">Email</label>
+                        <input placeholder="Enter your email" id="email" class="form_style" type="email" readonly>
+                    </div>
+                    <div class="form_group">
+                        <label class="sub_title" for="phone">Phone Number</label>
+                        <input placeholder="Enter your phone" id="phone" class="form_style" type="tel">
+                    </div>
+
+                    <div class="form_group">
+                        <label class="sub_title" for="password">Password</label>
+                        <input placeholder="Enter your password" id="password" class="form_style" type="password"
+                            readonly>
+                    </div>
+
+                    <div class="form_group">
+                        <label class="sub_title" for="experience">Experience</label>
+                        <input placeholder="Enter your experience" id="experience" class="form_style" type="number">
+                    </div>
+
+                    <div class="form_group">
+                        <label class="sub_title" for="door_no">Door_no</label>
+                        <input placeholder="Enter your door_no" id="door_no" class="form_style" type="text">
+                    </div>
+                    <div class="form_group">
+                        <label class="sub_title" for="landmark">Landmark</label>
+                        <input placeholder="Enter your landmark" id="landmark" class="form_style" type="text">
+                    </div>
+
+                    <div class="form_group">
+                        <label class="sub_title" for="street">Street</label>
+                        <input placeholder="Enter your street" id="street" class="form_style" type="text">
+                    </div>
+
+                    <div class="form_group">
+                        <label class="sub_title" for="city">City</label>
+                        <input placeholder="Enter your city" id="city" class="form_style" type="text">
+                    </div>
+
+                    <div class="form_group">
+                        <label class="sub_title" for="district">District</label>
+                        <input placeholder="Enter your district" id="district" class="form_style" type="text">
+                    </div>
+
+                    <div class="form_group">
+                        <label class="sub_title" for="state">State</label>
+                        <input placeholder="Enter your state" id="state" class="form_style" type="text">
+                    </div>
+
+
+
+
+                    <div class="form_group">
+                        <label class="sub_title" for="pincode">Pincode</label>
+                        <input placeholder="Enter your password" id="pincode" class="form_style" type="number">
+                    </div>
+                    <div>
+                        <!-- <button class="btn update"> Update</button> -->
+
+                        <input type="submit" class="btn update" value="update">
+                        </a>
+                </form>
+            </div><a class="link" href="">
+            </a>
+            <div id="profile">
+                <h1>Raju</h1>
+                <p id="manager_email"></p>
+                <button id="edit">
+                    <h4>Edit Profile</h4>
+                </button> <br>
+                <button id="req_btn">
+                    <h4>Requists</h4>
+                </button>
+
+                <button id="delete">
+                    <h4>Delete Account</h4>
+                </button>
+            </div>
+        </div>
+        <!-- <div id="profile">
+            <h1>Raju</h1>
+        <button id="edit">   <h4>Edit Profile</h4></button> 
+        </div> -->
+
+
+
+    </main>
+    <div id="clientRequist">
+        <table id="table" border="3px">
+            <tr>
+                <th>Booking_id</th>
+                <th>Cost</th>
+                <th>Entry_Date</th>
+                <th>Exist_Date</th>
+                <th>Payment</th>
+
+
+            </tr>
+
+        </table>
+
+    </div>
+    <!-- //================================================================================================================= -->
+    <form action="" id="details_from">
+        <div id="x1">
+            <h4>X</h4>
+
+        </div>
+
+        <div class="form_group">
+            <label class="sub_title" for="id">Id</label>
+            <input placeholder="Enter your full name" class="form_style" type="number" id="manager_id" readonly>
+        </div>
+        <div class="form_group">
+            <label class="sub_title" for="name">Name</label>
+            <input placeholder="Enter your full name" class="form_style" type="text" id="manager_name" readonly>
+        </div>
+        <div class="form_group">
+            <label class="sub_title" for="email">Email</label>
+            <input placeholder="Enter your email" id="manager_email2" class="form_style" type="email" readonly>
+        </div>
+        <div class="form_group">
+            <label class="sub_title" for="phone">Phone Number</label>
+            <input placeholder="Enter your phone" id="manager_phone" class="form_style" type="tel" readonly>
+        </div>
+
+        <div class="form_group">
+            <label class="sub_title" for="password">Password</label>
+            <input placeholder="Enter your password" id="manager_password" class="form_style" type="password" readonly>
+        </div>
+
+        <div class="form_group">
+            <label class="sub_title" for="experience">Experience</label>
+            <input placeholder="Enter your experience" id="manager_experience" class="form_style" type="number"
+                readonly>
+        </div>
+
+        <div class="form_group">
+            <label class="sub_title" for="door_no">Door_no</label>
+            <input placeholder="Enter your door_no" id="manager_door_no" class="form_style" type="text" readonly>
+        </div>
+        <div class="form_group">
+            <label class="sub_title" for="landmark">Landmark</label>
+            <input placeholder="Enter your landmark" id="manager_landmark" class="form_style" type="text" readonly>
+        </div>
+
+        <div class="form_group">
+            <label class="sub_title" for="street">Street</label>
+            <input placeholder="Enter your street" id="manager_street" class="form_style" type="text" readonly>
+        </div>
+
+        <div class="form_group">
+            <label class="sub_title" for="city">City</label>
+            <input placeholder="Enter your city" id="manager_city" class="form_style" type="text" readonly>
+        </div>
+
+        <div class="form_group">
+            <label class="sub_title" for="district">District</label>
+            <input placeholder="Enter your district" id="manager_district" class="form_style" type="text" readonly>
+        </div>
+
+        <div class="form_group">
+            <label class="sub_title" for="state">State</label>
+            <input placeholder="Enter your state" id="manager_state" class="form_style" type="text" readonly>
+        </div>
+
+
+
+
+        <div class="form_group">
+            <label class="sub_title" for="pincode">Pincode</label>
+            <input placeholder="Enter your password" id="manager_pincode" class="form_style" type="number" readonly>
+        </div>
+
+        <!-- <button class="btn update"> Update</button> -->
+
+    </form>
+
+
+    <!-- ======================================================================================================================== -->
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <div id="delete_workspace">
+        <form action="" id="delete_form">
+            <label for="">Workspace id</label>
+            <input type="number" id="id2">
+            <br>
+            <span id="span">input should not be empty</span>
+            <input type="submit" value="delete" id="deleteWorkspace">
+
+        </form>
+
+    </div>
+    <section id="section_details">
+        <div id="div_details">
+            <h2>details</h2>
+            <p> <label for="">Name : <span class="detail">Raju</span></label> </p>
+            <p> <label for="">E-mail : <span class="detail"></span></label> </p>
+            <p> <label for="">Phone : <span class="detail"></span></label> </p>
+            <p> <label for="">Experience : <span class="detail"></span></label> </p>
+            <p> <label for="">Door_no : <span class="detail"></span></label> </p>
+            <p> <label for="">Landmark : <span class="detail"></span></label> </p>
+            <p> <label for="">Street : <span class="detail"></span></label> </p>
+            <p> <label for="">City : <span class="detail"></span></label> </p>
+            <p> <label for="">State : <span class="detail"></span></label> </p>
+            <p> <label for="">Pin-Code : <span class="detail"></span></label> </p>
+        </div>
+        <div id="div_details">
+            <h1 id="building_name">Building details</h1>
+            <p> <label for="">building_name : <span class="detail">taju@</span></label> </p>
+            <p> <label for="">rating : <span class="detail">taju@</span></label> </p>
+            <p> <label for="">floors : <span class="detail">taju@</span></label> </p>
+            <p> <label for="">workSpaces : <span class="detail">taju@</span></label> </p>
+        </div >
+        <div id="div_details1">
+            <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2ZmaWNlJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D" alt="">
+
+        </div >
+    </section>
+
+
+    <section id="outer">
+
+
+
+
+    </section>
+    <section id="inner">
+
+    </section>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- <section id="section_details">
+        <div id="div_details">
+            <h2>details</h2>
+            <p> <label for="">Name : <span class="detail">Raju</span></label> </p>
+            <p> <label for="">E-mail : <span class="detail">taju@</span></label> </p>
+            <p> <label for="">Phone : <span class="detail"></span></label> </p>
+            <p> <label for="">Experience : <span class="detail"></span></label> </p>
+            <p> <label for="">Door_no : <span class="detail"></span></label> </p>
+            <p> <label for="">Landmark : <span class="detail"></span></label> </p>
+            <p> <label for="">Street : <span class="detail"></span></label> </p>
+            <p> <label for="">City : <span class="detail"></span></label> </p>
+            <p> <label for="">State : <span class="detail"></span></label> </p>
+            <p> <label for="">Pin-Code : <span class="detail"></span></label> </p>
+        </div>
+        <div id="div_details">
+            <h1 id="building_name">Building details</h1>
+            <p> <label for="">building_name : <span class="detail">taju@</span></label> </p>
+            <p> <label for="">rating : <span class="detail">taju@</span></label> </p>
+            <p> <label for="">floors : <span class="detail">taju@</span></label> </p>
+            <p> <label for="">workSpaces : <span class="detail">taju@</span></label> </p>
+        </div >
+        <div id="div_details1">
+            <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2ZmaWNlJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D" alt="">
+
+        </div >
+    </section> -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+    <script async src="./manager_main.js"></script>
+
+</body>
+
+</html>

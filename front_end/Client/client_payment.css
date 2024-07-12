@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+}
+label{
+    color: rgb(47, 0, 255);
+    font-weight: 500;
+}
+form{
+    margin-left: 35%;
+    border: 3px solid red;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+#label2{
+    margin-left: 10px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+#submit{
+    margin-left: 130px;
+    width: 90px;
+    background-color: rgb(124, 95, 253);
+    color: white;
+}
+span{
+    margin-left: 180px;
+    color: red;
+    font-weight: 700;
+    display: none;
+}
+p{
+    margin-left: 180px;
+    margin-top: 0px;
+    color: red;
+    display: none;
+   
+
+}
